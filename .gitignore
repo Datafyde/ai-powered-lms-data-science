@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+registration/
+
+# Django stuff:
+db.sqlite3
+*.sqlite3
+/media/
+
+# Avoid .env files containing sensitive information
+.env
+
+# Django migrations
+*/migrations/*
+
+# macOS
+.DS_Store
+
+# PyCharm specific files
+.idea/
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# VSCode settings (if applicable)
+.vscode/
